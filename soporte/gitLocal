@@ -10,7 +10,11 @@ añadir fichero(.gitignore) en raiz proyecto para no instlar archivos o director
 
 chequear funcionalidad .gitignore:  ../02Container$ git status
 añadir carpetas no ignoradas: ../02Container$ git add .
+git add <folder>/*,  git add ../soporte/* 
+
 chequear carpetas subidas:  ../02Container$ git status
 git config --global user.email "you@example.com"
 
 crear commit: ../02Container$ git commit -m "primer commit"
+
+git push origin master
